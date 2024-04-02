@@ -1,3 +1,4 @@
+// contains all the data to be displayed
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
