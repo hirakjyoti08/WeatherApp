@@ -46,9 +46,9 @@ final locationList = [
     humidity: 82,
   ),
   WeatherLocation(
-    city: 'New York',
-    dateTime: '11:30 PM — Saturday, 29 Mar 2024',
-    temparature: '15\u2103',
+    city: 'Mumbai',
+    dateTime: '10:00 PM — Saturday, 30 Mar 2024',
+    temparature: '40\u2103',
     weatherType: 'Sunny',
     iconUrl: 'assets/sunny.svg',
     wind: 5,
