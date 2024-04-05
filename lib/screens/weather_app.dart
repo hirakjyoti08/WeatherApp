@@ -2,11 +2,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:transformer_page_view/transformer_page_view.dart';
 import 'package:weather_app/model/weather_locations.dart';
 import 'package:weather_app/widget/single_weather.dart';
 import 'package:weather_app/model/weather_locations.dart';
 import 'package:weather_app/widget/slider_dot.dart';
-
+import '../widget/builder_transformer.dart';
 class WeatherApp extends StatefulWidget {
   @override
   State<WeatherApp> createState() => _WeatherAppState();
@@ -89,8 +90,10 @@ class _WeatherAppState extends State<WeatherApp> {
                   ],
                 ),
               ),
-              PageView.builder(
+              TransformerPageView(
                 scrollDirection: Axis.horizontal,
+                transformer: ScaleAndFadeTransformer(),
+                viewportFraction: 0.8,
                 onPageChanged: _onPageChanged,
                 itemCount: locationList.length,
                 itemBuilder: (ctx, i) => SingleWeather(i),
