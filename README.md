@@ -15,7 +15,7 @@ WeatherApp is a mobile application developed using Flutter that provides weather
 
 To install WeatherApp, follow these steps:
 
-1. Clone the repository from GitHub: [WeatherApp Repository](https://github.com/your-username/WeatherApp)
+1. Clone the repository from GitHub: [WeatherApp Repository](https://github.com/hirakjyoti08/WeatherApp)
 2. Navigate to the project directory
 
 
