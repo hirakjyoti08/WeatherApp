@@ -45,4 +45,4 @@ The main screen displays the current weather conditions, including temperature, 
 <img align="left" width="400" height="800" src="https://github.com/hirakjyoti08/WeatherApp/assets/76906387/2d2b4c51-c2bb-48ed-847c-636c9f77a52d">
 
 
-
+<img align="left" width="400" height="800" src="https://github.com/hirakjyoti08/WeatherApp/blob/main/AndroidEmulator-Pixel_4_API_30_55542024-05-0310-47-39-ezgif.com-video-to-gif-converter.gif">
